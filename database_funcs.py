@@ -6,5 +6,5 @@ cursor = conn.cursor()
 # cursor.execute("""
 # CREATE TABLE game (
 # pgn text,
-# closing_vote_time text
+# vote_duration_in_seconds text
 # )""")

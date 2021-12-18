@@ -25,6 +25,6 @@ async def start_game(ctx, vote_time):
     message = await ctx.send(text)
     poll_message = discord.utils.get(id=message.id)
 
-    await poll_message.add_reaction(iterable=":one:")
+    await poll_message.add_reaction()
 
 bot.run(TOKEN)
